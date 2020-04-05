@@ -16,8 +16,6 @@ input = gets.strip
 
 index = input_to_index(input)
 
-move(display_board,input_to_index,players_character = 'X')
-
-#board = move(display_board,input_to_index,players_character = 'X')
+move(board,index,players_character = 'X')
 
 display_board(board)
